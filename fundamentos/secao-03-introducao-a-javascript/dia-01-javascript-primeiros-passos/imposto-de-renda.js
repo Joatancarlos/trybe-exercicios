@@ -1,6 +1,6 @@
 //Uma pessoa que trabalha de carteira assinada no Brasil tem descontados de seu salário bruto o INSS e o IR.
 
-let salarioBruto = 3000
+let salarioBruto = 6000
 let aliquotaINSS = 0
 let impostoDeRenda = 0
 
@@ -38,4 +38,4 @@ if (salarioBase < 1903.99) {
 }
 
 salarioLiquido = salarioBase - (aliquotaIR - parcela)
-console.log(`O salário do trabalhador brasileiro tirando o roubo do governo é R$ ${salarioLiquido}. \nSendo de INSS R$ ${aliquotaINSS} e de IMPOSTO de Renda R$ ${aliquotaIR}`);
+console.log(`O salário do trabalhador brasileiro tirando o roubo do governo é R$ ${salarioLiquido}. \nSendo de INSS R$ ${aliquotaINSS} e de IMPOSTO de Renda R$ ${aliquotaIR - parcela}. Totalizando ${aliquotaINSS + (aliquotaIR - parcela)}`);
