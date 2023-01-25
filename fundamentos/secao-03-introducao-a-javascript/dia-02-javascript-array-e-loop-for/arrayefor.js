@@ -16,3 +16,10 @@ for (let i = 0; i < numbers.length; i += 1) {
 }
 
 console.log(`A soma é ${sum}`)
+
+// 3 - Calcule e imprima a média aritmética dos valores contidos no array
+
+let qtdItens = numbers.length
+let media = sum / qtdItens
+
+console.log(`A média é de ${media}`);
