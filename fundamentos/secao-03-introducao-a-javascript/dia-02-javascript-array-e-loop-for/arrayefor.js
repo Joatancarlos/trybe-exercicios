@@ -44,3 +44,21 @@ for (let i = 0; i < numbers.length; i += 1) {
 }
 
 console.log(`O maior valor é ${maiorValor}`);
+
+// 6 - Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: “nenhum valor ímpar encontrado”;
+
+let impares = []
+
+for (let i = 0; i < numbers.length; i += 1) {
+    if (numbers[i] % 2 != 0) {
+        impares.push(numbers[i])
+    }
+}
+
+let qtdImpares = impares.length
+
+if(qtdImpares == 0 ) {
+    console.log("Não tem nenhum número ímpar.");
+}
+
+console.log(`A quantidade de ímpares é : ${qtdImpares}`);
