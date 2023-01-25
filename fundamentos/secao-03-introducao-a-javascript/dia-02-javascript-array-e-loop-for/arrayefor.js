@@ -23,3 +23,11 @@ let qtdItens = numbers.length
 let media = sum / qtdItens
 
 console.log(`A média é de ${media}`);
+
+// 4 - Valor final menor que 20
+
+if (numbers[numbers.length - 1] > 20 ) {
+    console.log('Valor maior que 20');
+} else {
+    console.log('Valor menor que 20');
+}
