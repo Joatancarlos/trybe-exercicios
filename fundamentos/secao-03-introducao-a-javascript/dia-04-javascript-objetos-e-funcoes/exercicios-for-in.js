@@ -13,3 +13,7 @@ console.log(info);
 for (caracteristicas in info) {
     console.log(caracteristicas);
 }
+
+for (caracteristicas in info) {
+    console.log(info[caracteristicas]);
+}
