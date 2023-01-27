@@ -33,3 +33,18 @@ function soma(a,b) {
 let a = 3;
 let b = 5;
 console.log(`O resultado da soma ${a} + ${b} de é:  ${soma(a,b)}`);
+
+  
+const numeroAleatorio = () => Math.random()
+console.log(numeroAleatorio());
+
+
+const hello = nome => `Olá, ${nome}`
+let nome = 'Ivan';
+console.log(hello(nome));
+
+const nomeCompleto = (nome, sobrenome) => `${nome} ${sobrenome}`
+
+let nome2 = 'Ivan';
+let sobrenome = 'Pires';
+console.log(nomeCompleto(nome2, sobrenome));
