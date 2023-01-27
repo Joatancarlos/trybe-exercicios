@@ -17,3 +17,19 @@ pessoa.idade =  19
  // Altere essa estrutura para corrigir o erro.
 console.log('Nome:', pessoa.nome);
 console.log('Idade:', pessoa.idade);
+
+let favoriteFood = 'Lasanha';
+favoriteFood = 'Hamburguer';
+console.log(favoriteFood);
+
+const firstName = 'Adriana';
+const lastName = 'Soares';
+console.log(`Olá, ${firstName} ${lastName}`);
+
+function soma(a,b) {
+  let resultado = a + b;
+  return resultado;
+}
+let a = 3;
+let b = 5;
+console.log(`O resultado da soma ${a} + ${b} de é:  ${soma(a,b)}`);
