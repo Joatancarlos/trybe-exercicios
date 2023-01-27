@@ -48,3 +48,9 @@ const nomeCompleto = (nome, sobrenome) => `${nome} ${sobrenome}`
 let nome2 = 'Ivan';
 let sobrenome = 'Pires';
 console.log(nomeCompleto(nome2, sobrenome));
+
+
+let speed = 90;
+const speedCar = speed => speed >= 120 ? `Você ultrapassou o limite de velocidade` : `Você está na velocidade permitida`
+
+console.log(speedCar(speed));
